@@ -59,7 +59,7 @@ FinBERT is a specialized BERT model trained on financial text, making it more ef
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-repo/sentiment-analysis-finance.git
+git clone https://github.com/harshathghara/sentiment-analysis-finance.git
 cd sentiment-analysis-finance
 
 2️⃣ Install Dependencies
