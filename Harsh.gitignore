@@ -1,0 +1,54 @@
+# Ignore Python virtual environment
+venv/
+.env
+.venv/
+venv/*
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore database and cache files
+*.sqlite3
+*.db
+*.pkl
+
+# Ignore environment and dependency files
+.env
+.env.local
+*.config.json
+
+# Ignore model checkpoints and generated files
+models/
+finbert_results/
+*.pkl
+*.h5
+*.tflite
+*.onnx
+*.ckpt
+*.joblib
+*.npy
+*.npz
+
+# Ignore TensorFlow and PyTorch cache
+venv/Lib/site-packages/tensorflow/
+venv/Lib/site-packages/torch/
+
+# Ignore large hidden system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Git-related files
+.git/
+.gitignore
